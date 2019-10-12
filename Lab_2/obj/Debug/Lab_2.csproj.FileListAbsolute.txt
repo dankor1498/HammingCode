@@ -1,0 +1,7 @@
+D:\Documents\Предмети\Прикладна теорія інформація\Lab_2\Lab_2\obj\Debug\Lab_2.csprojAssemblyReference.cache
+D:\Documents\Предмети\Прикладна теорія інформація\Lab_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+D:\Documents\Предмети\Прикладна теорія інформація\Lab_2\Lab_2\bin\Debug\Lab_2.exe.config
+D:\Documents\Предмети\Прикладна теорія інформація\Lab_2\Lab_2\bin\Debug\Lab_2.exe
+D:\Documents\Предмети\Прикладна теорія інформація\Lab_2\Lab_2\bin\Debug\Lab_2.pdb
+D:\Documents\Предмети\Прикладна теорія інформація\Lab_2\Lab_2\obj\Debug\Lab_2.exe
+D:\Documents\Предмети\Прикладна теорія інформація\Lab_2\Lab_2\obj\Debug\Lab_2.pdb
