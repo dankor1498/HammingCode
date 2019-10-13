@@ -10,15 +10,38 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
-            //Word word = new Word(26, "00000000000000011000000101");
-            //Word word = new Word(4, "0101");
-            //Word word = new Word(3, "101");
-            //Word word = new Word(10, "1111101111");
-            int n = Int32.Parse(Console.ReadLine());
-            Word word = new Word(n);
+            Console.OutputEncoding = System.Text.Encoding.Default;
+
+            int m;
+            string inputWord, inputWordError;
+            Word word;
+
+            Console.Write("Введіть довжину m(від 1 до 57): ");
+            m = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Введіть текст для кодування(в бітовому вигляді), довжиною {m}:");
+            inputWord = Console.ReadLine();
+
+            Console.WriteLine($"Введіть текст з можливими помилками, довжиною {m}:");
+            inputWordError = Console.ReadLine();
+
+            word = new Word(m, inputWord, inputWordError);
+
+            //word = new Word(30, "000000000000000110000001010000", "000000000000000110000001010000");
+            //word = new Word(57, "000000000000000110000001010000000000000000000110000001010", 
+            //    "000000000000000110000001010000000000000000000110000001010");
+            //word = new Word(4,"0101", "0111");
+            //word = new Word(4,"0101", "1111");//звичайне подвійне
+            //word = new Word(3, "101", "111");
+            //word = new Word(1, "1", "0");
+            //word = new Word(5, "11110", "11011");//подвійна, перевищує довжину
+            //word = new Word(4, "1000", "0001");//подвійна, на надлишковий біт
+
             word.PrintWord();
             word.CodeWords();
-            Console.ReadLine();            
+            word.Decode();
+
+            Console.ReadLine();
         }
     }
 }
